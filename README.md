@@ -1,21 +1,30 @@
-# Hacktoberfest 2023
+# Hacktoberfest 2023 & Hacksquad 2023
 <br>
 <p>HacktoberFest Hello World in every other language ever. Just fork it and add a 'Hello World' program to contribute for hacktober fest and send a Pull Request!!</p>
 <h4>Get yourself free goodies by just writing a hello world!</h4>
+
+
 ### Don't forgot to star this reposetory.
+# What is hacksquad?
+HackSquad allows contributors to contribute code as a squad instead of a single contributor. Engage the community in a friendly competition over the month of October.
+
 <h1>What is hactoberfest?</h1>
 <p>Hacktoberfest is an annual event that encourages contributions to open-source projects on platforms like GitHub. It takes place throughout the month of October. The main goal of Hacktoberfest is to promote open-source collaboration and community participation by rewarding contributors with limited-edition swag, such as t-shirts and stickers, for making a certain number of valid pull requests to open-source repositories.</p>
+
+
 ## Steps to follow :scroll:
 
-### 1. Register for Hacktoberfest
+### 1. Register for Hacktoberfest and Hacksquad 2023
 
 https://hacktoberfest.digitalocean.com/
+
+https://www.hacksquad.dev/
 
 ### 2. Fork it :fork_and_knife:
 
 You can get your own fork/copy of [Hacktoberfest](https://github.com/shivaylamba/Hacktoberfest) by using the <kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/shivaylamba/Hacktoberfest/).
 
-[![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/shivaylamba/Hacktoberfest)
+[![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/x0lg0n/Code-Contribution)
 
 ### 3. Add a Program in any Language you like :rabbit2:
 
@@ -25,7 +34,7 @@ You can take a look to the [Programming Language List](https://en.wikipedia.org/
 ### 4. Ready, Steady, Go... :turtle: :rabbit2:
 
 Once you have completed these steps, you are ready to start contributing
-by checking our `Help Wanted` issues and creating [pull requests](https://github.com/shivaylamba/Hacktoberfest/pulls).
+by checking our `Help Wanted` issues and creating [pull requests](https://github.com/x0lg0n/Code-Contribution/pulls).
 
 ### 5. Give this Project a Star :star:
 
@@ -47,7 +56,7 @@ You can alternatively copy the URL by using the green “Clone or download” bu
 Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the `git clone` command with the repository URL from the command line in a terminal window:
 
 ```
-git clone https://github.com/your-username/Hacktoberfest.git
+git clone (https://github.com/your-username/Code-Contribution.git)
 ```
 
 ### 4. Create a New Branch
@@ -55,7 +64,7 @@ git clone https://github.com/your-username/Hacktoberfest.git
 To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to change into that directory.
 
 ```
-cd Hacktoberfest
+cd Code-COntribution
 ```
 
 Now, we’ll create our new branch with the `git branch` command. Make sure you name it descriptively so that others working on the project understand what you are working on.
@@ -125,7 +134,7 @@ We’ll first go over configuring a remote for the fork, then syncing the fork.
 Next, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. You’ll have to do this with the `git remote add` command.
 
 ```
-git remote add upstream https://github.com/shivaylamba/Hacktoberfest.git
+git remote add upstream https://github.com/your-username/Code-Contribution.git
 ```
 
 In this example, `upstream` is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
