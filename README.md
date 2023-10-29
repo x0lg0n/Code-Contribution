@@ -24,7 +24,7 @@ https://www.hacksquad.dev/
 
 You can get your own fork/copy of [Hacktoberfest](https://github.com/shivaylamba/Hacktoberfest) by using the <kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/shivaylamba/Hacktoberfest/).
 
-[![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/x0lg0n/Code-Contribution)
+[![Fork Button]](https://github.com/x0lg0n/Code-Contribution)
 
 ### 3. Add a Program in any Language you like :rabbit2:
 
@@ -64,7 +64,7 @@ git clone (https://github.com/your-username/Code-Contribution.git)
 To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to change into that directory.
 
 ```
-cd Code-COntribution
+cd Code-Contribution
 ```
 
 Now, we’ll create our new branch with the `git branch` command. Make sure you name it descriptively so that others working on the project understand what you are working on.
