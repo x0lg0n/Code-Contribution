@@ -1,4 +1,4 @@
-# Hacktoberfest 2023 & Hacksquad 2023
+# Hacktoberfest 2024 & Hacksquad 2024
 <br>
 <p>HacktoberFest Hello World in every other language ever. Just fork it and add a 'Hello World' program to contribute for hacktober fest and send a Pull Request!!</p>
 <h4>Get yourself free goodies by just writing a hello world!</h4>
@@ -14,7 +14,7 @@ HackSquad allows contributors to contribute code as a squad instead of a single 
 
 ## Steps to follow :scroll:
 
-### 1. Register for Hacktoberfest and Hacksquad 2023
+### 1. Register for Hacktoberfest and Hacksquad 2024
 
 https://hacktoberfest.digitalocean.com/
 
