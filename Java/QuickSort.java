@@ -60,6 +60,6 @@ public class QuickSort {
 
         quickSort(A, 0, A.length -1);
 
-        System.out.println("Array After Merge Sort: " + Arrays.toString(A));
+        System.out.println("Array After Quick Sort: " + Arrays.toString(A));
     }
 }
