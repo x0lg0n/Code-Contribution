@@ -23,6 +23,12 @@ public class KadanesAlgorithm {
      */
 
     public int maxSubArray(int[] nums, boolean allowEmptySubarray) {
+        if (nums == null) {
+            throw new IllegalArgumentException("Input array cannot be null");
+        }
+        if (nums.length == 0 && !allowEmptySubarray) {
+            throw new IllegalArgumentException("Input array cannot be empty when allowEmptySubarray is false");
+        }
         int maxSum = Integer.MIN_VALUE;
         int currentSum = 0;
 
