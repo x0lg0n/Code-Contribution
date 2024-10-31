@@ -25,6 +25,7 @@ public class reverse {
             }
             System.out.println();
         }
+        in.close();
     }
         public static int[][] Reverse(int[][] image)
         {
