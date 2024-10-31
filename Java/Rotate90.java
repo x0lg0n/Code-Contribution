@@ -1,4 +1,4 @@
-public class Solution {
+public class Rotate90 {
     public void solve(int[][] A) {
         int temp = 0;
         for(int i = 0; i<A.length; i++){
