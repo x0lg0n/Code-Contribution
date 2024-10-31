@@ -1,8 +1,9 @@
 public class Rotate90 {
     public void solve(int[][] A) {
+        int temp;
         for(int i = 0; i<A.length; i++){
             for(int j = i+1; j<A.length; j++){
-                    int temp = A[i][j]; //the temp variable has been declared to do the swapping process
+                     temp = A[i][j]; //the temp variable has been declared to do the swapping process
                      A[i][j] = A[j][i];
                      A[j][i] = temp;
             }
