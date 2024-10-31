@@ -43,7 +43,7 @@ Enhancement suggestions can be submitted as issues. Include:
 2. Write clear commit messages.
 3. Add test cases for any new functionality, if applicable.
 4. Push your branch to GitHub:
-5. 
+ 
    ```bash
    git push origin feature/your-feature-name
 
