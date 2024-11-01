@@ -3,6 +3,12 @@ using namespace std;
 void bubbleSort(int arr[], int size) {
   for (int step = 0; step < size; ++step) {
     for (int i = 0; i < size - step - 1; ++i) {
+
+#include <bits/stdc++.h>
+using namespace std;
+void bubbleSort(int arr[], int size) {
+  for (int step = 0; step < size; ++step) {
+    for (int i = 0; i < size - step; ++i) {
       if (arr[i] > arr[i + 1]) {
         int temp = arr[i];
         arr[i] = arr[i + 1];
