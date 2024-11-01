@@ -235,3 +235,41 @@ int main() {
 ```
 
 Feel free to explore the repository and see more examples in various languages. Happy contributing!
+
+## Jekyll Theme
+
+This repository uses the Jekyll theme `minima`. To run the site locally, follow these steps:
+
+1. **Install Jekyll**: Make sure you have Ruby and Bundler installed. Then install Jekyll with the following command:
+
+   ```bash
+   gem install jekyll bundler
+   ```
+
+2. **Clone the repository**: If you haven't already, clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/Code-Contribution.git
+   ```
+
+3. **Navigate to the repository directory**:
+
+   ```bash
+   cd Code-Contribution
+   ```
+
+4. **Install dependencies**: Install the required dependencies using Bundler:
+
+   ```bash
+   bundle install
+   ```
+
+5. **Run the Jekyll site**: Use the following command to build and serve the site locally:
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+6. **Open your browser**: Open your web browser and go to `http://localhost:4000` to see the site.
+
+For more information on Jekyll, visit the [Jekyll documentation](https://jekyllrb.com/docs/).
