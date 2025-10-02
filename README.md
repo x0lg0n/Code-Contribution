@@ -1,4 +1,4 @@
-# Hacktoberfest 2024 & Hacksquad 2024
+# Hacktoberfest 2025 & Hacksquad 2025
 
 ## Join the Fun and Get Free Swag!
 
