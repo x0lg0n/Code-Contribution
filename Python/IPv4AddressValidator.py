@@ -18,8 +18,6 @@ def validate(ip):
         # If splitting fails, return False
         return False
 
-    flag = True  # Assume output is True
-
     # IPv4 address must have exactly 4 components
     if len(numbers) != 4:
         return False
@@ -28,11 +26,11 @@ def validate(ip):
             # Check if each component is a valid integer in the range 0-255
             try:
                 if int(num) not in range(256):
-                    flag = False
+                    return False
             except ValueError:
                 # If conversion to int fails, it's not a valid number
-                flag = False
-        return flag
+                return False
+        return True
 
 def main():
     """
