@@ -241,4 +241,70 @@ More information on Jekyll, visit the [Jekyll documentation](https://jekyllrb.co
 Hacktoberfest is about community, learning, and fun.
 Let’s make 2025 the biggest and most engaging yet 🥳.
 
+# Hurray!! You just got closer to complete your hacktoberfest challenge.
+
+## Purpose of the Repository
+
+The purpose of this repository is to provide a platform for developers to contribute to open-source projects during Hacktoberfest and Hacksquad 2024. By adding a 'Hello World' program in any programming language, contributors can participate in these events, learn about different programming languages, and collaborate with the community.
+
+## How to Contribute
+
+1. **Fork the repository** to your own GitHub account.
+2. **Clone your forked repository** to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/Code-Contribution.git
+   ```
+
+3. **Create a new branch** for your contribution:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+4. **Add your 'Hello World' program** in the appropriate language directory. If the directory does not exist, create one.
+
+5. **Commit your changes** with a descriptive commit message:
+
+   ```bash
+   git commit -m "Add Hello World in [Language]"
+   ```
+
+6. **Push your branch** to your forked repository:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+7. **Open a Pull Request** to the main branch of this repository with a descriptive title and summary of your changes.
+
+8. **Wait for review and approval**. Once your pull request is approved, it will be merged into the main branch.
+
+### Example Contributions
+
+Here are some examples of 'Hello World' programs in different programming languages:
+
+#### Python
+
+```python
+print("Hello, World!")
+```
+
+#### JavaScript
+
+```javascript
+console.log("Hello, World!");
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+```
+
+Feel free to explore the repository and see more examples in various languages. Happy contributing!
 Happy Contributing 🚀
