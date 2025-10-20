@@ -1,5 +1,6 @@
 /*
  * Program: Multiplication of Two Matrices (Any Size)
+ * Author: RoaaAlsham
  * ---------------------------------------------------
  * This program allows the user to input two matrices (of compatible sizes)
  * and multiplies them according to the standard matrix multiplication rule
@@ -18,20 +19,12 @@
  *    7.0  8.0  9.0      1.1  4.3  5.2     17.9 88.7 92.4
  */
 
-package com.fsmvu.roaa_shalabalsham_hw5;
-
 import java.util.Scanner;
-
-/**
- *
- * @author Zahera
- */
 public class AlgebraMultiplyMatrices {
 
     public static void main(String[] args) {
          try (Scanner scan = new Scanner(System.in)) {
 
-            // Step 1: Read dimensions
             System.out.print("Enter rows and columns for Matrix 1 (e.g., 3 3): ");
             int rowsA = scan.nextInt();
             int colsA = scan.nextInt();
@@ -40,13 +33,11 @@ public class AlgebraMultiplyMatrices {
             int rowsB = scan.nextInt();
             int colsB = scan.nextInt();
 
-            // Step 2: Check compatibility
             if (colsA != rowsB) {
                 System.out.println(" Matrices cannot be multiplied. Columns of Matrix 1 must equal rows of Matrix 2.");
                 return;
             }
 
-            // Step 3: Read matrices
             double[][] matrix1 = new double[rowsA][colsA];
             double[][] matrix2 = new double[rowsB][colsB];
 
@@ -56,7 +47,6 @@ public class AlgebraMultiplyMatrices {
             System.out.println("Enter Matrix 2 elements:");
             readMatrix(scan, matrix2);
 
-            // Step 4: Multiply and display
             double[][] result = multiplyMatrix(matrix1, matrix2);
 
             System.out.println("\n The multiplication of the matrices is:\n");
@@ -66,9 +56,6 @@ public class AlgebraMultiplyMatrices {
             System.out.println("Invalid input caused the following exception:\n" + e.getMessage());
         }
     }
-
-    
-
 
     static double[][] readMatrix(Scanner scan, double[][] matrice) {
         for (int i = 0; i < matrice.length; i++) {
