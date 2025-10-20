@@ -1,26 +1,28 @@
 #include <iostream>
+#include <limits>
 using namespace std;
 
-// Function to calculate factorial
-long long factorial(int n) {
-    if (n == 0) return 1; // 0! = 1
+long long factorial(int num) {
     long long fact = 1;
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= num; ++i)
         fact *= i;
-    }
     return fact;
 }
 
-int main() {
+// Input validation function
+int getValidatedInput(const string &prompt, int minValue) {
     int num;
-    cout << "Enter a non-negative integer ";
-    cin >> num;
-
-    if (num < 0) {
-        cout << "Please enter a num>0" << endl;
-    } else {
-        cout << "Factorial of " << num << " = " << factorial(num) << endl;
+    cout << prompt;
+    while (!(cin >> num) || num < minValue) {
+        cin.clear(); // clear error flag
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // discard invalid input
+        cout << "Invalid input! " << prompt;
     }
+    return num;
+}
 
+int main() {
+    int num = getValidatedInput("Enter a non-negative integer: ", 0);
+    cout << "Factorial of " << num << " is " << factorial(num) << endl;
     return 0;
 }
