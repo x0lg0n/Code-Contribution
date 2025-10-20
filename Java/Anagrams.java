@@ -1,4 +1,8 @@
-import java.util.Scanner;
+/**
+ * Program Title: Add a Java solution for checking if two words are anagrams
+ * Author: [hirushi1999]
+ * Date: 2025-10-20
+ */
 
 public class Anagrams {
     static boolean isAnagram(String a, String b) {
