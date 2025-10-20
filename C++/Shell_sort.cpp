@@ -1,7 +1,9 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
-void shellSort(int arr[], int n) {
+void shellSort(vector<int>& arr) {
+    int n = arr.size();
     for (int gap = n / 2; gap > 0; gap /= 2) {
         for (int i = gap; i < n; i++) {
             int temp = arr[i];
@@ -17,14 +19,22 @@ int main() {
     int n;
     cout << "Enter number of elements: ";
     cin >> n;
-    int arr[n];
+    if (cin.fail() || n <= 0) {
+        cerr << "Invalid input. Please enter a positive integer." << endl;
+        return 1;
+    }
+
+    vector<int> arr(n);
     cout << "Enter elements: ";
     for (int i = 0; i < n; i++)
         cin >> arr[i];
-    shellSort(arr, n);
+
+    shellSort(arr);
+
     cout << "Sorted array: ";
-    for (int i = 0; i < n; i++)
-        cout << arr[i] << " ";
+    for (int x : arr)
+        cout << x << " ";
     cout << endl;
+
     return 0;
 }
