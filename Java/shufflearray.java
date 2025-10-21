@@ -1,4 +1,4 @@
-class Solution {
+class ShuffleArray {
     public int[] shuffle(int[] nums, int n) {
         int [] a = new int[n];
         int [] b = new int[n];

@@ -1,6 +1,5 @@
-import java.util.*;
 
-public class ArrayCC{
+public class TrappedWater{
  
   public static int trappedWater(int height[]){
     int n = height.length;

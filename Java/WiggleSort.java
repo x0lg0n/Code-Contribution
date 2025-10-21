@@ -35,5 +35,7 @@ public class WiggleSort {
         for (int num : nums) {
             System.out.print(num + " ");
         }
+
+        scanner.close();
     }
 }

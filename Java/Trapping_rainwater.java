@@ -1,4 +1,5 @@
-public static void trapping_water(int height[]){
+public class Trapping_rainwater {
+    public static void trapping_water(int height[]){
         int n= height.length;
         int right_max[]= new int[n];
         int left_max[]= new int[n];
@@ -16,3 +17,10 @@ public static void trapping_water(int height[]){
         }
         System.out.print(trappedWater);
     }
+
+    public static void main(String[] args) {
+        // example usage
+        int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
+        trapping_water(height);
+    }
+}

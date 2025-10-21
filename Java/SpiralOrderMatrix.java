@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Solution {
+class SpiralOrderMatrix {
     public ArrayList<ArrayList<Integer>> generateMatrix(int n) {
         // Define the boundaries for traversal in the 2D array
         int top = 0;

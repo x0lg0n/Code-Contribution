@@ -1,4 +1,4 @@
-public class rotate180d{
+public class Rotate180{
     static void rotateMatrix(int[][] mat){
         int n=mat.length;
         int [][] res= new int[n][n];
