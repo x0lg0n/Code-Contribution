@@ -141,11 +141,57 @@ public class DataProcessor {
 
 ## List of Programs
 
-1. `BinarySearch.java`: Implementation of the binary search algorithm.
-2. `BubbleSort.java`: Implementation of the bubble sort algorithm.
-3. `HelloWorld.java`: A simple program that prints "Hello World!".
-4. `insertionSort.java`: Implementation of the insertion sort algorithm.
-5. `InterpolationSearch.java`: Implementation of the interpolation search algorithm.
+### 🔍 Search Algorithms
+1. `BinarySearch.java`: Implementation of the binary search algorithm with O(log n) time complexity.
+2. `InterpolationSearch.java`: Implementation of the interpolation search algorithm, efficient for uniformly distributed data.
+
+### 📊 Sorting Algorithms
+3. `BubbleSort.java`: Implementation of the bubble sort algorithm with optimization for early termination.
+4. `InsertionSort.java`: Implementation of the insertion sort algorithm, efficient for small datasets.
+5. `MergeSort.java`: Implementation of the merge sort algorithm with O(n log n) guaranteed performance.
+6. `QuickSort.java`: Implementation of the quicksort algorithm using divide-and-conquer approach.
+7. `SelectionSort.java`: Implementation of the selection sort algorithm with O(n²) time complexity.
+8. `SortColors.java`: Implementation of the Dutch National Flag problem for sorting colors.
+9. `WiggleSort.java`: Implementation of wiggle sort algorithm for alternating array elements.
+
+### 🧮 Mathematical Algorithms
+10. `FibonacciSeries.java`: Implementation of Fibonacci number generation using iterative approach.
+11. `factorial.java`: Implementation of factorial calculation.
+12. `ArmstrongNumber.java`: Implementation to check if a number is an Armstrong number.
+13. `PrimeFactors.java`: Implementation to find prime factors of a number.
+14. `Pow(x,n).java`: Implementation of power function with optimization.
+
+### 🎯 Array Manipulation
+15. `Anagrams.java`: Implementation to check if two strings are anagrams.
+16. `CheckPalindrome.java`: Implementation to check if a string is a palindrome.
+17. `Palindrome.java`: Alternative implementation for palindrome checking.
+18. `Pangram.java`: Implementation to check if a string is a pangram.
+19. `shufflearray.java`: Implementation to shuffle array elements randomly.
+20. `SumOfTwoNumbers.java`: Implementation to find two numbers that sum to a target.
+
+### 🔢 Matrix Operations
+21. `AlgebraMultiplyMatrices.java`: Implementation of matrix multiplication.
+22. `PrintDiagonalElements.java`: Implementation to print diagonal elements of a matrix.
+23. `ReverseMatrix.java`: Implementation to reverse matrix elements.
+24. `rotate180.java`: Implementation to rotate matrix by 180 degrees.
+25. `Rotate90.java`: Implementation to rotate matrix by 90 degrees.
+26. `SpiralOrderMatrix.java`: Implementation to print matrix in spiral order.
+
+### 🌊 Advanced Algorithms
+27. `KadanesAlgorithm.java`: Implementation of Kadane's algorithm for maximum subarray sum.
+28. `Krushkal'sAlgorithm.java`: Implementation of Kruskal's algorithm for minimum spanning tree.
+29. `primsAlgorithm.java`: Implementation of Prim's algorithm for minimum spanning tree.
+30. `SudokuSolver.java`: Implementation of Sudoku puzzle solver using backtracking.
+31. `TrappedWater.java`: Implementation to calculate trapped rainwater.
+32. `Trapping_rainwater.java`: Alternative implementation for trapped rainwater problem.
+
+### 🎮 Interactive Programs
+33. `GuessNumber.java`: Interactive number guessing game.
+34. `HelloWorld.java`: A simple program that prints "Hello World!".
+35. `Largest.java`: Implementation to find the largest number in an array.
+36. `Main.java`: Main class for program execution.
+37. `Star.java`: Implementation to print star patterns.
+38. `String_atoi.java`: Implementation of string to integer conversion (atoi function).
 
 ## How to Run
 
