@@ -9,7 +9,6 @@ It fits a model to sample data and predicts the output for a given input.
 
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.metrics import mean_absolute_error,mean_squared_error
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import numpy as np
@@ -17,19 +16,21 @@ import numpy as np
 
 
 # Sample data
-data = {
-    'x': [1, 2, 3, 4, 5, 6],
-    'y': [10, 20, 30, 40, 50, 60]
-}
+np.random.seed(42)
+X = np.random.rand(100, 1) * 10
+y = (10 * X + np.random.randn(100, 1) * 15).flatten()
 
-# Create a DataFrame from the sample data
-df = pd.DataFrame(data)
+# Create a DataFrame
+df = pd.DataFrame({'x': X.flatten(), 'y': y})
+
+
+
 
 
 # Define features (X) and target variable (Y)
 X = df[['x']]  # Features must be in 2D array format
 Y = df['y']    # Target variable
-X_train,X_test,y_train,y_test = train_test_split(X,Y,test_size = 0.25) #split the data to avoid overfitting and for effective predictions
+X_train,X_test,y_train,y_test = train_test_split(X,Y,test_size = 0.25,random_state = 42) #split the data to avoid overfitting and for effective predictions
 
 # Create a LinearRegression model instance
 model = LinearRegression()
@@ -38,14 +39,16 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 
-# Make predictions for a new value
+# Make predictions for on test data
 prediction = model.predict(X_test)
 
 #visualize the linear regression model
 plt.scatter(X_train, y_train, color='blue', label='Training Data')
 plt.scatter(X_test, y_test, color='red', label='Testing Data')
+plt.plot(X, model.predict(X), color='green', linewidth=2, label='Regression Line')
 plt.xlabel('X')
 plt.ylabel('Y')
+plt.legend(
 plt.show()
 
 #View the accuracy of predictions
