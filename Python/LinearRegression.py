@@ -42,7 +42,7 @@ model.fit(X_train, y_train)
 # Make predictions for on test data
 prediction = model.predict(X_test)
 
-#visualize the linear regression model
+#visualize the linear regression model using scatter plots
 plt.scatter(X_train, y_train, color='blue', label='Training Data')
 plt.scatter(X_test, y_test, color='red', label='Testing Data')
 plt.plot(X, model.predict(X), color='green', linewidth=2, label='Regression Line')
