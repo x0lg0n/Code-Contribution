@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class reverseMatrix {
+public class ReverseMatrix {
 
     public static void main(String[] args) {
         
@@ -17,7 +17,7 @@ public class reverseMatrix {
                 A[i][j] = in.nextInt();
             }
         }
-        Reverse(A); //calling the function for reversing each row of the given matrix.
+        reverse(A); //calling the function for reversing each row of the given matrix.
         
         for (int i = 0; i < A.length; i++) {
             for (int j = 0; j < A[0].length; j++) {
@@ -31,15 +31,15 @@ public class reverseMatrix {
         {
         
         for (int i = 0 ; i < matrix.length ; i++) {
-        int startIndex = 0; //startIndex refers to the startindex of each row of the matrix.
-        int endIndex = matrix[0].length -1;//endIndex refers to the endindex of each row of the matrix.
-        while(startIndex < endIndex) { // applying the algorithm for reversing rows.
-            int temp = matrix[i][s]; //the temp variable has been declared to help in the swapping process.
-            matrix[i][s] = matrix[i][e];
-            matrix[i][e] =temp;
-            startIndex++; // incrementing value of startIndex and decrementing value of endIndex otherwise of which the program will go in an infinite loop.
-            endIndex--;
-        }
+            int startIndex = 0; //startIndex refers to the startindex of each row of the matrix.
+            int endIndex = matrix[i].length - 1; //endIndex refers to the endindex of each row of the matrix.
+            while(startIndex < endIndex) { // applying the algorithm for reversing rows.
+                int temp = matrix[i][startIndex]; //the temp variable has been declared to help in the swapping process.
+                matrix[i][startIndex] = matrix[i][endIndex];
+                matrix[i][endIndex] = temp;
+                startIndex++; // incrementing value of startIndex and decrementing value of endIndex otherwise of which the program will go in an infinite loop.
+                endIndex--;
+            }
         }
         return matrix;
     }

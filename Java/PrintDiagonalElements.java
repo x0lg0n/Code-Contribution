@@ -1,4 +1,3 @@
-import java.lang.*;
 import java.util.*;
 
 public class PrintDiagonalElements {
@@ -39,5 +38,6 @@ public class PrintDiagonalElements {
         }
 
         System.out.println(); // For a newline after printing all diagonals
+        sc.close();
     }
 }
