@@ -18,13 +18,13 @@
 
 ```
 ┌─────────────────────────────────────┐
-│ 1. File Header                      │ ← What this file does
+│ 1. File Header                       │←   What this file does
 ├─────────────────────────────────────┤
-│ 2. Class/Module Docs                │ ← Purpose, features, usage
+│ 2. Class/Module Docs                │←   Overall Purpose, features, usage
 ├─────────────────────────────────────┤
-│ 3. Function/Method Docs             │ ← Params, returns, examples
+│ 3. Function/Method Docs             │←   Params, returns, examples
 ├─────────────────────────────────────┤
-│ 4. Inline Comments                  │ ← Complex logic explained
+│ 4. Inline Comments                  │←    Complex logic explained
 └─────────────────────────────────────┘
 ```
 
